@@ -1,0 +1,147 @@
+body{
+    background-color: #f8c99f; /* Цвет фона веб-страницы */
+    } 
+    h3 {
+        color: rgb(70, 34, 34);
+        text-align: center;
+    }
+    h2{
+        color:#c26e48;
+    }
+    h1{
+        text-align: center;
+    }
+.txt {
+   display:inline-block;
+   color:#676767;
+   width:190px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+}
+.txtarea {
+   display:inline-block;
+   color:#676767;
+   width:617px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+   height:80px;
+}
+.txt:focus, .txtarea:focus {
+   border-style:solid;
+   border-color:#BABABA;
+   color:#444;
+}
+input.error, textarea.error {
+    border-color:#973D3D;
+    border-style:solid;
+    background:#F0BEBE;
+    color:#A35959;
+    float: center;
+    
+}
+input.error:focus, textarea.error:focus {
+    border-color:#973D3D;
+    color:#A35959;
+  
+}
+#send { 
+    color:#FFFFFF;
+    display:block;
+    cursor:pointer;
+    padding:5px 11px;
+    font-size:1.2em;
+    border:solid 1px #F9F9F9;
+    border-radius:2px;
+    background:#c26e48;
+    width:210px;
+    margin-bottom:20px;
+}
+img {
+    text-align: center;
+}   
+ h6 {
+    text-align: center;
+}
+body{
+    background-color: #f8c99f; /* Цвет фона веб-страницы */
+    } 
+header {
+      padding: 2px;
+     text-align: center;
+     background: #f8c99f(255, 231, 196, 0.856);
+      color: rgb(63, 39, 39);
+      border-radius:4px; /*добавляем скругление*/
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    footer {
+        color: rgb(0, 0, 0);
+        padding: 1px;
+        text-align: center;
+        background: rgba(255, 231, 196, 0.856);
+    }
+    head {
+        text-align: center;
+    }
+    ul {
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем отступы*/
+        padding-left: 0; /*убираем отступы*/
+        margin-top:25px; /*делаем отступ сверху*/
+      }
+      a {
+        margin-right:5px; /*Добавляем отступ у пунктов меню*/
+        text-decoration: none; /*убираем подчеркивание текста ссылок*/
+        background:rgba(255, 231, 196, 0.856); /*добавляем фон к пункту меню*/
+        color:rgb(63, 39, 39); /*меняем цвет ссылок*/
+        padding:10px; /*добавляем отступ*/
+        font-family: 'Times New Roman', Times, serif; /*меняем шрифт*/
+        border-radius:4px; /*добавляем скругление*/
+        font-size: 24px;
+      }
+      a:hover {
+        background:#cfaf84;/*добавляем эффект при наведении*/
+      }
+      .header {
+        background-color: rgba(255, 231, 196, 0.856);
+        border-radius:4px;
+    }
+  
+    .footer {
+        background-color: rgba(255, 231, 196, 0.856);
+    }
+    #header {
+        padding: 2px;
+        text-align: center;
+        background: #ddd;
+        color: black;
+        }
+        
+        .header h1 {
+        font-size: 40px;
+        }
+    .navbar {
+            text-align: center;
+            overflow: hidden;
+            background-color: rgba(255, 231, 196, 0.856);;
+            }
+            * {
+            box-sizing: border-box;
+            }
+            .block {
+                height: 400px;
+                margin-left: 280px; ;
+                padding: -20px;
+                width: 1300px;
+                position: absolute;
+                 }

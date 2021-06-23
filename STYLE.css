@@ -1,0 +1,71 @@
+html {
+    background-color: #c5c4c3; /* Цвет фона веб-страницы */
+    
+}
+.nav {
+    margin-right: 30px;
+}
+nav::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    background:#673e37;
+    left :0;
+    z-index: -1;
+}
+.font{
+    font-family:Bradley Hand, cursive;
+    font-size: 20px;
+    
+}
+.side {
+    flex: 30%;
+    background-color: #7a221b;
+    padding: 20px;
+}
+.nav__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    margin-left: 25px;
+    color: rgb(27, 2, 2);
+    transition: color .2s linear;
+    position: relative;
+    opacity: .7;
+    transition: opacity .3s linear, text-shadow .3s linear;
+   
+    
+}
+
+.nav__link:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0 0 10px #fff;
+    transition: opacity .2s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    text-shadow: 0 0 10px #fff;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
